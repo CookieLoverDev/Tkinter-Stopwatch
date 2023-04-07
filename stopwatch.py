@@ -59,7 +59,7 @@ def laps_list(l_lst):
 
 def load_frame2():
     if time_label.cget("text") != "0.00":
-        messagebox.showerror(title="Erro",
+        messagebox.showerror(title="Error",
                              message="In order to see the laps, please stop the stopwatch first")
     else:
         clear_widgets(frame2)
