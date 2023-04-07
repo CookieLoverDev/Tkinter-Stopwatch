@@ -169,8 +169,6 @@ def load_frame1():
                          command=load_frame2)
     lst_button.place(x=325, y=280)
 
-# lambda x=l_lst: laps_list(x)
-
 frame1 = tk.Frame(root, height=350, width=400, bg=bg_colour)
 frame2 = tk.Frame(root, bg=bg_colour)
 
